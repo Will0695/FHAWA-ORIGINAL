@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores personalizados -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fondo_principal">#FFC0CB</color> <!-- Cambia el código de color según tu preferencia -->
+    <color name="mi_color_rojo">#FF0000</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="hint_text_color">#A0A0A0</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="naranja">#FFA500</color>
+
+    <!-- Colores para el modo claro -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="textColor">#000000</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="editTextColor">#000000</color>
+
+    <!-- Colores para el modo oscuro -->
+    <color name="colorPrimaryDarkMode">#BB86FC</color>
+    <color name="colorPrimaryDarkMode2">#3700B3</color> <!-- Renombrado para evitar duplicidad -->
+    <color name="colorAccentDarkMode">#03DAC5</color>
+    <color name="textColorDarkMode">#D63C3C</color>
+    <color name="backgroundColorDarkMode">#121212</color>
+    <color name="editTextColorDarkMode">#FFFFFF</color>
+    <color name="light_gray">#D3D3D3</color>
+
+
+
+</resources>

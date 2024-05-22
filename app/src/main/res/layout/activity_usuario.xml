@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Usuario">
+
+    <!-- Encabezado FHAWA en la parte superior izquierda -->
+    <ImageView
+        android:id="@+id/encabezado_fhawa"
+        android:layout_width="105dp"
+        android:layout_height="21dp"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="60dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/f"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <!-- Imágenes horizontalmente -->
+
+    <!-- Texto entre la imagen de usuario y el botón de crear usuario -->
+
+
+    <ImageView
+        android:id="@+id/usuarioImageView"
+        android:layout_width="230dp"
+        android:layout_height="272dp"
+        android:layout_marginTop="90dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/usuario"
+        app:layout_constraintBottom_toTopOf="@id/crearUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/encabezado_fhawa" />
+
+    <TextView
+        android:id="@+id/texto_intermedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Añade tus nuevos usuarios"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usuarioImageView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/crearUsuario"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="265dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="108dp"
+        android:padding="16dp"
+        android:text="Crear Usuario"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usuarioImageView" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/crearUsuario">
+
+        <ImageButton
+            android:id="@+id/visualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/listar" />
+
+        <ImageButton
+            android:id="@+id/modificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/mod" />
+
+        <ImageButton
+            android:id="@+id/buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/bus" />
+
+        <ImageButton
+            android:id="@+id/CerrarSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/cerrar_sesion"
+            android:src="@drawable/cerrar" />
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/menu" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

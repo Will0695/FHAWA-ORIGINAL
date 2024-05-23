@@ -91,4 +91,9 @@ public class Usuario extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void crud_vendedor (View vista){
+        Intent crud = new Intent(this, crud_vendedor.class);
+        startActivity(crud);
+    }
 }

@@ -1004,7 +1004,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lopez\\Downloads\\fawha original\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\lopez\\Desktop\\fhawa\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1969,39 +1969,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lopez\\Downloads\\fawha original\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\lopez\\Desktop\\fhawa\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
-                        "startLines": "5,1,3,2,10,20",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "172,16,115,59,288,813",
-                        "endLines": "8,1,3,2,18,28",
-                        "endColumns": "19,42,55,55,12,12",
-                        "endOffsets": "282,54,166,110,807,1382"
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "102,335",
+                        "endLines": "5,7",
+                        "endColumns": "12,74",
+                        "endOffsets": "327,405"
                     },
                     "to": {
-                        "startLines": "2,1989,1997,2050,2159,2168",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "150,131319,132601,139077,153240,153729",
-                        "endLines": "5,1989,1997,2050,2167,2176",
-                        "endColumns": "19,42,55,55,12,12",
-                        "endOffsets": "260,131357,132652,139128,153724,154263"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lopez\\Downloads\\fawha original\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "17,25,9,3,7,15,23,13,14,21,22,18,26,5,8,27,6,10,16,24,4",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "770,1178,440,94,336,678,1070,578,626,914,970,821,1237,180,389,1294,287,492,725,1125,137",
-                        "endColumns": "49,57,50,41,51,45,53,46,50,54,55,47,55,49,49,44,47,41,43,51,41",
-                        "endOffsets": "815,1231,486,131,383,719,1119,620,672,964,1021,864,1288,225,434,1334,330,529,764,1172,174"
-                    },
-                    "to": {
-                        "startLines": "640,641,642,647,656,661,662,663,664,665,666,706,707,710,715,716,946,955,976,977,980",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "32594,32644,32702,33072,33755,34056,34102,34156,34203,34254,34309,37068,37116,37293,37623,37673,55124,55737,57196,57240,57413",
-                        "endColumns": "49,57,50,41,51,45,53,46,50,54,55,47,55,49,49,44,47,41,43,51,41",
-                        "endOffsets": "32639,32697,32748,33109,33802,34097,34151,34198,34249,34304,34360,37111,37167,37338,37668,37713,55167,55774,57235,57287,57450"
+                        "startLines": "2577,6551",
+                        "startColumns": "4,4",
+                        "startOffsets": "180524,459250",
+                        "endLines": "2580,6551",
+                        "endColumns": "12,73",
+                        "endOffsets": "180640,459319"
                     }
                 },
                 {
@@ -2024,6 +2007,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\lopez\\Desktop\\fhawa\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "5,1,3,2,10,20",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "177,17,118,61,298,833",
+                        "endLines": "8,1,3,2,18,28",
+                        "endColumns": "19,42,55,55,12,12",
+                        "endOffsets": "290,55,169,112,825,1410"
+                    },
+                    "to": {
+                        "startLines": "2,1989,1997,2050,2159,2168",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "150,131319,132601,139077,153240,153729",
+                        "endLines": "5,1989,1997,2050,2167,2176",
+                        "endColumns": "19,42,55,55,12,12",
+                        "endOffsets": "260,131357,132652,139128,153724,154263"
+                    }
+                },
+                {
                     "source": "C:\\Users\\lopez\\.gradle\\caches\\transforms-4\\dc20b1a7d0ac04e0a1c38b1606a39e38\\transformed\\startup-runtime-1.1.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -2038,6 +2040,23 @@
                         "startOffsets": "131236",
                         "endColumns": "82",
                         "endOffsets": "131314"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lopez\\Desktop\\fhawa\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "17,25,9,3,7,15,23,13,14,21,22,18,26,5,8,27,6,10,16,24,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "770,1178,440,94,336,678,1070,578,626,914,970,821,1237,180,389,1294,287,492,725,1125,137",
+                        "endColumns": "49,57,50,41,51,45,53,46,50,54,55,47,55,49,49,44,47,41,43,51,41",
+                        "endOffsets": "815,1231,486,131,383,719,1119,620,672,964,1021,864,1288,225,434,1334,330,529,764,1172,174"
+                    },
+                    "to": {
+                        "startLines": "640,641,642,647,656,661,662,663,664,665,666,706,707,710,715,716,946,955,976,977,980",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "32594,32644,32702,33072,33755,34056,34102,34156,34203,34254,34309,37068,37116,37293,37623,37673,55124,55737,57196,57240,57413",
+                        "endColumns": "49,57,50,41,51,45,53,46,50,54,55,47,55,49,49,44,47,41,43,51,41",
+                        "endOffsets": "32639,32697,32748,33109,33802,34097,34151,34198,34249,34304,34360,37111,37167,37338,37668,37713,55167,55774,57235,57287,57450"
                     }
                 },
                 {
@@ -2184,25 +2203,6 @@
                         "endLines": "113,9188,11146,11230",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "5936,637593,708846,713362"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lopez\\Downloads\\fawha original\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "102,335",
-                        "endLines": "5,7",
-                        "endColumns": "12,74",
-                        "endOffsets": "327,405"
-                    },
-                    "to": {
-                        "startLines": "2577,6551",
-                        "startColumns": "4,4",
-                        "startOffsets": "180524,459250",
-                        "endLines": "2580,6551",
-                        "endColumns": "12,73",
-                        "endOffsets": "180640,459319"
                     }
                 },
                 {

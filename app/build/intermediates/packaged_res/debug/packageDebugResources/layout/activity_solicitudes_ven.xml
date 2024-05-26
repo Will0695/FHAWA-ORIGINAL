@@ -22,19 +22,20 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="129dp"
-        android:layout_height="38dp"
+        android:id="@+id/regresar"
+        android:layout_width="203dp"
+        android:layout_height="48dp"
         android:onClick="crud_vendedor"
         android:text="Regresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintHorizontal_bias="0.923"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.078" />
+        app:layout_constraintVertical_bias="0.061" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ingresoso_t"
         android:layout_width="364dp"
         android:layout_height="54dp"
         android:drawableStart="@drawable/ingresos"
@@ -48,6 +49,7 @@
         app:layout_constraintVertical_bias="0.697" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nombre_cli"
         android:layout_width="373dp"
         android:layout_height="52dp"
         android:drawableStart="@drawable/persona"
@@ -72,9 +74,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.179" />
+        app:layout_constraintVertical_bias="0.15" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/direccion_cli"
         android:layout_width="373dp"
         android:layout_height="65dp"
         android:drawableStart="@drawable/casa"
@@ -88,6 +91,7 @@
         app:layout_constraintVertical_bias="0.6" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/paqueteria"
         android:layout_width="378dp"
         android:layout_height="63dp"
         android:drawableStart="@drawable/paquetes"
@@ -101,18 +105,19 @@
         app:layout_constraintVertical_bias="0.801" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/agregar"
+        android:layout_width="116dp"
+        android:layout_height="58dp"
         android:text="Agregar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.913" />
+        app:layout_constraintVertical_bias="0.949" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/apellido_cli"
         android:layout_width="373dp"
         android:layout_height="58dp"
         android:drawableStart="@drawable/persona"
@@ -126,6 +131,7 @@
         app:layout_constraintVertical_bias="0.414" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/telefo"
         android:layout_width="372dp"
         android:layout_height="68dp"
         android:drawableStart="@drawable/telefono"

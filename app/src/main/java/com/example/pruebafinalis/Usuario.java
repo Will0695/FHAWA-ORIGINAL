@@ -39,6 +39,12 @@ public class Usuario extends AppCompatActivity {
                 startActivity(intent);
             });
         }
+        /* iniciar el boton de crear solicitud
+        Button botonventanausuario =findViewById(R.id.pag_vendedor);
+            if (botonventanausuario != null){
+                Intent intent = new Intent(Usuario.this, crud_vendedor.class);
+                startActivity(intent);
+            }*/
 
         // Inicializar el ImageButton de visualizar
         ImageButton visualizarButton = findViewById(R.id.visualizar);

@@ -3193,6 +3193,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id agregar
 id alertTitle
 id aligned
 id all
@@ -3203,6 +3204,7 @@ id animateToStart
 id antiClockwise
 id anticipate
 id apellidoEditText
+id apellido_cli
 id arc
 id asConfigured
 id async
@@ -3222,11 +3224,8 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buscar
-id button
 id button2
 id button3
-id button4
-id button5
 id buttonBackToLogin
 id buttonPanel
 id cache_measures
@@ -3285,6 +3284,7 @@ id design_menu_item_text
 id design_navigation_view
 id dialog_button
 id dimensions
+id direccion_cli
 id direct
 id disableHome
 id disableIntraAutoTransition
@@ -3365,6 +3365,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id ingresoso_t
 id invisible
 id inward
 id italic
@@ -3459,6 +3460,7 @@ id noScroll
 id noState
 id no_dpi
 id nombreTextView
+id nombre_cli
 id nombre_usuarioEditText
 id none
 id normal
@@ -3487,6 +3489,8 @@ id outline
 id outward
 id overshoot
 id packed
+id pag_vendedor
+id paqueteria
 id parallax
 id parent
 id parentPanel
@@ -3509,6 +3513,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id regresar
 id report_drawn
 id reverseSawtooth
 id right
@@ -3593,6 +3598,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id telefo
 id text
 id text2
 id textEnd

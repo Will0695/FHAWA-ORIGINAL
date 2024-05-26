@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-debug-31:\\layout_activity_modificar_ve.xml.flat",
-        "source": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-main-33:\\layout\\activity_modificar_ve.xml"
-    },
-    {
         "merged": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-debug-31:\\drawable_agregar.png.flat",
         "source": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-main-33:\\drawable\\agregar.png"
+    },
+    {
+        "merged": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-debug-31:\\layout_activity_modificar_ve.xml.flat",
+        "source": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-main-33:\\layout\\activity_modificar_ve.xml"
     },
     {
         "merged": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-debug-31:\\layout_activity_splash.xml.flat",
@@ -64,10 +64,6 @@
         "source": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-main-33:\\drawable\\pa.png"
     },
     {
-        "merged": "com.example.pruebafinalis.app-debug-31:/layout_activity_solicitudes_ven.xml.flat",
-        "source": "com.example.pruebafinalis.app-main-33:/layout/activity_solicitudes_ven.xml"
-    },
-    {
         "merged": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-debug-31:\\layout_activity_verusuarios.xml.flat",
         "source": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-main-33:\\layout\\activity_verusuarios.xml"
     },
@@ -92,12 +88,12 @@
         "source": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-main-33:\\drawable\\bus.png"
     },
     {
-        "merged": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-debug-31:\\drawable_usuario.png.flat",
-        "source": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-main-33:\\drawable\\usuario.png"
-    },
-    {
         "merged": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-debug-31:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-debug-31:\\drawable_usuario.png.flat",
+        "source": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-main-33:\\drawable\\usuario.png"
     },
     {
         "merged": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-debug-31:\\layout_activity_buscar.xml.flat",
@@ -206,6 +202,10 @@
     {
         "merged": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-debug-31:\\drawable_button_pink_background.xml.flat",
         "source": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-main-33:\\drawable\\button_pink_background.xml"
+    },
+    {
+        "merged": "com.example.pruebafinalis.app-debug-31:/layout_activity_usuario.xml.flat",
+        "source": "com.example.pruebafinalis.app-main-33:/layout/activity_usuario.xml"
     },
     {
         "merged": "C:\\Users\\lopez\\.gradle\\daemon\\8.6\\com.example.pruebafinalis.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",

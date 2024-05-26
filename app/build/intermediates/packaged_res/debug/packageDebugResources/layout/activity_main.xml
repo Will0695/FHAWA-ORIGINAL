@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="32dp">
+
+    <!-- Icono para el nombre de usuario -->
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:onClick="onLogoClick"
+        android:src="@drawable/logotipo" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Usuario"
+        android:inputType="text|textNoSuggestions"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:endIconMode="password_toggle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="275dp"
+        android:layout_height="95dp"
+        android:onClick="onLoginClicked"
+        android:text="LOGIN"
+        android:textSize="30dp" />
+
+    <!-- ProgressBar para mostrar el progreso -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" /> <!-- Invisible por defecto -->
+
+    <!-- Mostrar mensaje de contraseña incorrecta -->
+    <TextView
+        android:id="@+id/errorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/mi_color_rojo"
+        android:text="Contraseña incorrecta"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>

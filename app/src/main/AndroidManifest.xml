@@ -16,6 +16,15 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".solicitudes_ven"
+            android:exported="false" />
+        <activity
+            android:name=".modificar_ve"
+            android:exported="false" />
+        <activity
+            android:name=".crud_vendedor"
+            android:exported="false" />
+        <activity
             android:name=".Buscar"
             android:exported="false" />
         <activity

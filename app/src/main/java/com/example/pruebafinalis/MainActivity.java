@@ -5,6 +5,7 @@ import android.text.InputType;
 
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -21,6 +22,7 @@ import com.android.volley.toolbox.Volley;
 
 import com.android.volley.Response;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.google.android.material.textfield.TextInputEditText;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -28,10 +30,9 @@ import org.json.JSONObject;
 public class MainActivity extends AppCompatActivity {
 
     private EditText usernameEditText;
-    private EditText passwordEditText;
+    private TextInputEditText passwordEditText;
     private ProgressBar progressBar;
-    private TextView errorTextView; // Añade una referencia al TextView
-    private ImageButton showPasswordButton;
+    private TextView errorTextView;
     private SessionManager sessionManager;
 
     @Override
@@ -42,99 +43,76 @@ public class MainActivity extends AppCompatActivity {
         usernameEditText = findViewById(R.id.usernameEditText);
         passwordEditText = findViewById(R.id.passwordEditText);
         progressBar = findViewById(R.id.progressBar);
-        errorTextView = findViewById(R.id.errorTextView); // Inicializa el TextView
+        errorTextView = findViewById(R.id.errorTextView);
 
         sessionManager = new SessionManager(this);
 
         // Verificar si hay una sesión activa
-        if (sessionManager.getAuthToken() != null) {
+        String token = sessionManager.getAuthToken();
+        if (token != null && !token.isEmpty()) {
             // Iniciar la actividad Usuario directamente
             startActivity(new Intent(MainActivity.this, Usuario.class));
             finish();
         }
+    }
 
-       // showPasswordButton = findViewById(R.id.showPasswordButton);
-    }
-    public void onShowPasswordClicked(View view) {
-        if (passwordEditText.getInputType() == InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD) {
-            // Si la contraseña es visible, cambiar a contraseña oculta
-            passwordEditText.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
-            showPasswordButton.setImageResource(R.drawable.seeoff);
-        } else {
-            // Si la contraseña está oculta, cambiar a contraseña visible
-            passwordEditText.setInputType(InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
-            showPasswordButton.setImageResource(R.drawable.see);
-        }
-        // Mover el cursor al final del texto
-        passwordEditText.setSelection(passwordEditText.length());
-    }
-   public void onLoginClicked(View view) {
-       progressBar.setVisibility(View.VISIBLE); // Mostrar el ProgressBar al iniciar la solicitud de inicio de sesión
+    public void onLoginClicked(View view) {
+        progressBar.setVisibility(View.VISIBLE); // Mostrar el ProgressBar al iniciar la solicitud de inicio de sesión
         loginPost();
-
     }
 
-    public void loginPost(){
+    public void loginPost() {
         String username = usernameEditText.getText().toString().trim();
         String password = passwordEditText.getText().toString().trim();
         String postUrl = "https://api-production-c57e.up.railway.app/api/login";
         RequestQueue requestQueue = Volley.newRequestQueue(this);
 
-            JSONObject postData = new JSONObject();
-            try {
-                postData.put("nombre_usuario", username);
-                postData.put("password", password);
+        // Validar campos de entrada
+        if (username.isEmpty() || password.isEmpty()) {
+            progressBar.setVisibility(View.GONE);
+            errorTextView.setText("Por favor, complete todos los campos");
+            errorTextView.setVisibility(View.VISIBLE);
+            return;
+        }
 
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
+        JSONObject postData = new JSONObject();
+        try {
+            postData.put("nombre_usuario", username);
+            postData.put("password", password);
+        } catch (JSONException e) {
+            e.printStackTrace();
+            progressBar.setVisibility(View.GONE);
+            errorTextView.setText("Error al crear la solicitud de inicio de sesión");
+            errorTextView.setVisibility(View.VISIBLE);
+            return;
+        }
 
-            JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, postUrl, postData, new Response.Listener<JSONObject>() {
-           /*     @Override
-                public void onResponse(JSONObject response) {
-                    System.out.println("token12" + response);
-                    progressBar.setVisibility(View.GONE); // Ocultar el ProgressBar cuando se recibe la respuesta
-                   // setContentView(R.layout.activity_usuario);
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, postUrl, postData,
+                response -> {
+                    progressBar.setVisibility(View.GONE);
+                    try {
+                        String token = response.getString("token");
+                        sessionManager.saveAuthToken(token);
 
-                    // Verificar si hay una sesión activa
-                    if (sessionManager.getAuthToken() != null) {
-                        // Iniciar la actividad Usuario directamente
-                      //prueba
-                        //  startActivity(new Intent(MainActivity.this, Usuario.class));
-                        startActivity(new Intent(MainActivity.this, Ingresonuevousuario.class));
-
+                        startActivity(new Intent(MainActivity.this, Usuario.class));
                         finish();
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                        errorTextView.setText("Error al analizar el token");
+                        errorTextView.setVisibility(View.VISIBLE);
                     }
-
-                } */
-           @Override
-           public void onResponse(JSONObject response) {
-               progressBar.setVisibility(View.GONE);
-               try {
-                   String token = response.getString("token");
-                   sessionManager.saveAuthToken(token);
-
-                   startActivity(new Intent(MainActivity.this, Usuario.class));
-                   finish();
-               } catch (JSONException e) {
-                   e.printStackTrace();
-                   errorTextView.setText("Error parsing token");
-                   errorTextView.setVisibility(View.VISIBLE);
-               }
-           }
-
-            }, new Response.ErrorListener() {
-                @Override
-                public void onErrorResponse(VolleyError error) {
-                    progressBar.setVisibility(View.GONE); // Ocultar el ProgressBar en caso de error
-                    errorTextView.setVisibility(View.VISIBLE); // Mostrar el TextView de error
+                },
+                error -> {
+                    progressBar.setVisibility(View.GONE);
+                    errorTextView.setVisibility(View.VISIBLE);
+                    errorTextView.setText("Error al iniciar sesión. Verifique sus credenciales e intente nuevamente.");
                     usernameEditText.setText("");
                     passwordEditText.setText("");
                     usernameEditText.requestFocus();
                     error.printStackTrace();
                 }
-            });
-            requestQueue.add(jsonObjectRequest);
-        }
+        );
 
+        requestQueue.add(jsonObjectRequest);
+    }
 }

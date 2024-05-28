@@ -30,7 +30,7 @@ public class NewUser extends AppCompatActivity {
     private Spinner roleSpinner;
     private Button crearButton;
     private RequestQueue requestQueue;
-    private ProgressBar crearUsuarioProgressBar;
+    private SessionManager sessionManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,10 +47,11 @@ public class NewUser extends AppCompatActivity {
         roleSpinner = findViewById(R.id.roleSpinner);
         crearButton = findViewById(R.id.crearButton);
 
-
-
         // Inicializar RequestQueue
         requestQueue = Volley.newRequestQueue(this);
+
+        // Inicializar SessionManager
+        sessionManager = new SessionManager(this);
 
         // Configurar el Spinner de roles
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.roles_array, android.R.layout.simple_spinner_item);
@@ -134,6 +135,4 @@ public class NewUser extends AppCompatActivity {
         // Agregar la solicitud a la cola de solicitudes
         requestQueue.add(jsonObjectRequest);
     }
-
-
 }

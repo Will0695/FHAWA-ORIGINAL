@@ -9,85 +9,91 @@
 
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="381dp"
-        android:layout_height="72dp"
+        android:id="@+id/paq_idEditText"
+        android:layout_width="384dp"
+        android:layout_height="56dp"
         android:drawableStart="@drawable/paquetes"
         android:drawablePadding="8dp"
         android:hint="Tipo de paquete"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintHorizontal_bias="0.274"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.875" />
+        app:layout_constraintVertical_bias="0.887" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="383dp"
-        android:layout_height="65dp"
+        android:id="@+id/ing_edEditText"
+        android:layout_width="376dp"
+        android:layout_height="55dp"
         android:drawableStart="@drawable/ingresos"
         android:drawablePadding="8dp"
         android:hint="Ingresos totales"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintHorizontal_bias="0.271"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757" />
+        app:layout_constraintVertical_bias="0.784" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="384dp"
-        android:layout_height="69dp"
+        android:id="@+id/dir_edEditText"
+        android:layout_width="371dp"
+        android:layout_height="55dp"
         android:drawableStart="@drawable/casa"
         android:drawablePadding="8dp"
         android:hint="Direccion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.638" />
+        app:layout_constraintVertical_bias="0.678" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="387dp"
-        android:layout_height="59dp"
+        android:id="@+id/telefo_edEditText"
+        android:layout_width="390dp"
+        android:layout_height="51dp"
         android:drawableStart="@drawable/telefono"
         android:drawablePadding="8dp"
         android:hint="Numero de telefono"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintHorizontal_bias="0.355"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.523" />
+        app:layout_constraintVertical_bias="0.578" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="387dp"
-        android:layout_height="61dp"
+        android:id="@+id/apellido_edEditText"
+        android:layout_width="397dp"
+        android:layout_height="54dp"
         android:drawableStart="@drawable/persona"
         android:drawablePadding="8dp"
         android:hint="Apellido"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintHorizontal_bias="0.368"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418" />
+        app:layout_constraintVertical_bias="0.483" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nombre_edEditText"
         android:layout_width="388dp"
-        android:layout_height="66dp"
+        android:layout_height="52dp"
         android:drawableStart="@drawable/persona"
         android:drawablePadding="8dp"
         android:hint="nombre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.309"
+        app:layout_constraintHorizontal_bias="0.34"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintVertical_bias="0.388" />
 
     <Button
-        android:id="@+id/regresar"
+        android:id="@+id/regresar_v"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="crud_vendedor"
@@ -116,31 +122,55 @@
         app:layout_constraintVertical_bias="0.106" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/editar_v"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Editar"
         android:textColorLink="#FD0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.198"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976"
         app:rippleColor="#00870A0A" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/no_dpi"
-        android:layout_width="386dp"
-        android:layout_height="67dp"
+        android:id="@+id/dpi_edEditText"
+        android:layout_width="375dp"
+        android:layout_height="59dp"
         android:drawableStart="@drawable/user"
         android:drawablePadding="8dp"
         android:hint="Numero_DPI"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintHorizontal_bias="0.266"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191" />
+        app:layout_constraintVertical_bias="0.194" />
+
+    <Button
+        android:id="@+id/eliminar_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eliminar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/busqueda_v"
+        android:layout_width="154dp"
+        android:layout_height="57dp"
+        android:text="Buscar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

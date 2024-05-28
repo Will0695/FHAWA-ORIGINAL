@@ -118,7 +118,7 @@
         app:layout_constraintVertical_bias="0.59" />
 
     <Button
-        android:id="@+id/regresar"
+        android:id="@+id/regresar_v"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="Usuario"

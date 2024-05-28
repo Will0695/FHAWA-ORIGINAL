@@ -3205,6 +3205,7 @@ id antiClockwise
 id anticipate
 id apellidoEditText
 id apellido_cli
+id apellido_edEditText
 id arc
 id asConfigured
 id async
@@ -3224,8 +3225,8 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buscar
+id busqueda_v
 id button2
-id button3
 id buttonBackToLogin
 id buttonPanel
 id cache_measures
@@ -3266,6 +3267,7 @@ id counterclockwise
 id cradle
 id crearButton
 id crearUsuario
+id crearUsuarioProgressBar
 id currentState
 id custom
 id customPanel
@@ -3284,6 +3286,7 @@ id design_menu_item_text
 id design_navigation_view
 id dialog_button
 id dimensions
+id dir_edEditText
 id direccion_cli
 id direct
 id disableHome
@@ -3291,6 +3294,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id dpi_edEditText
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3306,7 +3310,9 @@ id easeOut
 id east
 id edge
 id edit_query
+id editar_v
 id elastic
+id eliminar_v
 id embed
 id encabezado_fhawa
 id end
@@ -3365,6 +3371,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id ing_edEditText
 id ingresoso_t
 id invisible
 id inward
@@ -3458,9 +3465,9 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
-id no_dpi
 id nombreTextView
 id nombre_cli
+id nombre_edEditText
 id nombre_usuarioEditText
 id none
 id normal
@@ -3490,6 +3497,7 @@ id outward
 id overshoot
 id packed
 id pag_vendedor
+id paq_idEditText
 id paqueteria
 id parallax
 id parent
@@ -3513,7 +3521,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id regresar
+id regresar_v
 id report_drawn
 id reverseSawtooth
 id right
@@ -3599,6 +3607,7 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id telefo
+id telefo_edEditText
 id text
 id text2
 id textEnd

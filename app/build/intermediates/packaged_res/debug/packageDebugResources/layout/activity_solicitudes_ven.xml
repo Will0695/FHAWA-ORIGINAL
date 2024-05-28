@@ -8,7 +8,7 @@
     tools:context=".solicitudes_ven">
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/no_dpi"
+        android:id="@+id/dpi_edEditText"
         android:layout_width="373dp"
         android:layout_height="57dp"
         android:drawableStart="@drawable/user"
@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <Button
-        android:id="@+id/regresar"
+        android:id="@+id/regresar_v"
         android:layout_width="203dp"
         android:layout_height="48dp"
         android:onClick="crud_vendedor"

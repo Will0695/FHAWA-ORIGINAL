@@ -9,226 +9,226 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <permission
-13-->[androidx.core:core:1.9.0] C:\Users\lopez\.gradle\caches\transforms-4\5b28c01e766e60a39f0aaf9e235fa41b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+13-->[androidx.core:core:1.9.0] C:\Users\hajca\.gradle\caches\transforms-4\4491e1ab6abbf65cec2e813456b59f9f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 14        android:name="com.example.pruebafinalis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.9.0] C:\Users\lopez\.gradle\caches\transforms-4\5b28c01e766e60a39f0aaf9e235fa41b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+14-->[androidx.core:core:1.9.0] C:\Users\hajca\.gradle\caches\transforms-4\4491e1ab6abbf65cec2e813456b59f9f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.9.0] C:\Users\lopez\.gradle\caches\transforms-4\5b28c01e766e60a39f0aaf9e235fa41b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+15-->[androidx.core:core:1.9.0] C:\Users\hajca\.gradle\caches\transforms-4\4491e1ab6abbf65cec2e813456b59f9f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 16
 17    <uses-permission android:name="com.example.pruebafinalis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.9.0] C:\Users\lopez\.gradle\caches\transforms-4\5b28c01e766e60a39f0aaf9e235fa41b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.9.0] C:\Users\lopez\.gradle\caches\transforms-4\5b28c01e766e60a39f0aaf9e235fa41b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+17-->[androidx.core:core:1.9.0] C:\Users\hajca\.gradle\caches\transforms-4\4491e1ab6abbf65cec2e813456b59f9f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\hajca\.gradle\caches\transforms-4\4491e1ab6abbf65cec2e813456b59f9f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:7:5-77:19
+19-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:7:5-77:19
 20        android:allowBackup="true"
-20-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:8:9-35
+20-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.9.0] C:\Users\lopez\.gradle\caches\transforms-4\5b28c01e766e60a39f0aaf9e235fa41b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21-->[androidx.core:core:1.9.0] C:\Users\hajca\.gradle\caches\transforms-4\4491e1ab6abbf65cec2e813456b59f9f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:9:9-65
+22-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:9:9-65
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:fullBackupContent="@xml/backup_rules"
-25-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:10:9-54
+25-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:10:9-54
 26        android:icon="@mipmap/ic_launcher"
-26-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:11:9-43
+26-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:11:9-43
 27        android:label="@string/app_name"
-27-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:12:9-41
+27-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:12:9-41
 28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:13:9-54
+28-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:13:9-54
 29        android:supportsRtl="true"
-29-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:14:9-35
+29-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:14:9-35
 30        android:testOnly="true"
 31        android:theme="@style/Theme.PruebaFinalIS"
-31-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:15:9-51
+31-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:15:9-51
 32        android:usesCleartextTraffic="true" >
-32-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:16:9-44
+32-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:16:9-44
 33        <activity
-33-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:18:9-20:40
+33-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:18:9-20:40
 34            android:name="com.example.pruebafinalis.solicitudes_ven"
-34-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:19:13-44
+34-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:19:13-44
 35            android:exported="false" />
-35-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:20:13-37
+35-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:20:13-37
 36        <activity
-36-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:21:9-23:40
+36-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:21:9-23:40
 37            android:name="com.example.pruebafinalis.modificar_ve"
-37-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:22:13-41
+37-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:22:13-41
 38            android:exported="false" />
-38-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:23:13-37
+38-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:23:13-37
 39        <activity
-39-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:24:9-26:40
+39-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:24:9-26:40
 40            android:name="com.example.pruebafinalis.crud_vendedor"
-40-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:25:13-42
+40-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:25:13-42
 41            android:exported="false" />
-41-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:26:13-37
+41-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:26:13-37
 42        <activity
-42-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:27:9-29:40
+42-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:27:9-29:40
 43            android:name="com.example.pruebafinalis.Buscar"
-43-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:28:13-35
+43-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:28:13-35
 44            android:exported="false" />
-44-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:29:13-37
+44-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:29:13-37
 45        <activity
-45-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:30:9-32:40
+45-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:30:9-32:40
 46            android:name="com.example.pruebafinalis.Modificar"
-46-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:31:13-38
+46-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:31:13-38
 47            android:exported="false" />
-47-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:32:13-37
+47-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:32:13-37
 48        <activity
-48-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:33:9-35:40
+48-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:33:9-35:40
 49            android:name="com.example.pruebafinalis.verusuarios"
-49-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:34:13-40
+49-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:34:13-40
 50            android:exported="false" />
-50-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:35:13-37
+50-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:35:13-37
 51        <activity android:name="com.example.pruebafinalis.Ingresonuevousuario" />
-51-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:36:9-57
-51-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:36:19-54
+51-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:36:9-57
+51-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:36:19-54
 52        <activity
-52-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:37:9-40:47
+52-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:37:9-40:47
 53            android:name="com.example.pruebafinalis.NewUser"
-53-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:38:13-36
+53-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:38:13-36
 54            android:exported="true"
-54-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:39:13-36
+54-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:39:13-36
 55            android:theme="@style/AppTheme" />
-55-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:40:13-44
+55-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:40:13-44
 56        <activity
-56-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:41:9-43:40
+56-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:41:9-43:40
 57            android:name="com.example.pruebafinalis.IngresoUsuario"
-57-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:42:13-43
+57-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:42:13-43
 58            android:exported="false" />
-58-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:43:13-37
+58-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:43:13-37
 59        <activity
-59-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:44:9-46:40
+59-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:44:9-46:40
 60            android:name="com.example.pruebafinalis.Clientes"
-60-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:45:13-37
+60-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:45:13-37
 61            android:exported="false" />
-61-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:46:13-37
+61-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:46:13-37
 62        <activity
-62-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:47:9-49:40
+62-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:47:9-49:40
 63            android:name="com.example.pruebafinalis.guardar_usuarios"
-63-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:48:13-45
+63-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:48:13-45
 64            android:exported="false" />
-64-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:49:13-37
+64-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:49:13-37
 65        <activity
-65-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:50:9-52:39
+65-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:50:9-52:39
 66            android:name="com.example.pruebafinalis.ingreso"
-66-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:51:13-36
+66-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:51:13-36
 67            android:exported="true" />
-67-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:52:13-36
+67-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:52:13-36
 68        <activity
-68-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:53:9-61:20
+68-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:53:9-61:20
 69            android:name="com.example.pruebafinalis.SplashActivity"
-69-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:54:13-43
+69-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:54:13-43
 70            android:exported="true" >
-70-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:55:13-36
+70-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:55:13-36
 71            <intent-filter>
-71-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:56:13-60:29
+71-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:56:13-60:29
 72                <action android:name="android.intent.action.MAIN" />
-72-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:57:17-69
-72-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:57:25-66
+72-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:57:17-69
+72-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:57:25-66
 73
 74                <category android:name="android.intent.category.LAUNCHER" />
-74-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:59:17-77
-74-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:59:27-74
+74-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:59:17-77
+74-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:59:27-74
 75            </intent-filter>
 76        </activity>
 77        <activity
-77-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:62:9-64:39
+77-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:62:9-64:39
 78            android:name="com.example.pruebafinalis.info"
-78-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:63:13-33
+78-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:63:13-33
 79            android:exported="true" />
-79-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:64:13-36
+79-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:64:13-36
 80        <activity
-80-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:65:9-67:39
+80-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:65:9-67:39
 81            android:name="com.example.pruebafinalis.Usuario"
-81-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:66:13-36
+81-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:66:13-36
 82            android:exported="true" />
-82-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:67:13-36
+82-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:67:13-36
 83        <activity
-83-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:68:9-76:20
+83-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:68:9-76:20
 84            android:name="com.example.pruebafinalis.MainActivity"
-84-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:69:13-41
+84-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:69:13-41
 85            android:exported="true" >
-85-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:70:13-36
+85-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:70:13-36
 86            <intent-filter>
-86-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:56:13-60:29
+86-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:56:13-60:29
 87                <action android:name="android.intent.action.MAIN" />
-87-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:57:17-69
-87-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:57:25-66
+87-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:57:17-69
+87-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:57:25-66
 88
 89                <category android:name="android.intent.category.LAUNCHER" />
-89-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:59:17-77
-89-->C:\Users\lopez\Downloads\fawha original\app\src\main\AndroidManifest.xml:59:27-74
+89-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:59:17-77
+89-->C:\Users\hajca\Desktop\ProyectoFinal_I-S\app\src\main\AndroidManifest.xml:59:27-74
 90            </intent-filter>
 91        </activity>
 92
 93        <provider
-93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lopez\.gradle\caches\transforms-4\01c3e37df2b2fb0b37739e3a91f67a32\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hajca\.gradle\caches\transforms-4\2ec1e72086c099be0896e24e68f8a304\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 94            android:name="androidx.startup.InitializationProvider"
-94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lopez\.gradle\caches\transforms-4\01c3e37df2b2fb0b37739e3a91f67a32\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hajca\.gradle\caches\transforms-4\2ec1e72086c099be0896e24e68f8a304\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 95            android:authorities="com.example.pruebafinalis.androidx-startup"
-95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lopez\.gradle\caches\transforms-4\01c3e37df2b2fb0b37739e3a91f67a32\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hajca\.gradle\caches\transforms-4\2ec1e72086c099be0896e24e68f8a304\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 96            android:exported="false" >
-96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lopez\.gradle\caches\transforms-4\01c3e37df2b2fb0b37739e3a91f67a32\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hajca\.gradle\caches\transforms-4\2ec1e72086c099be0896e24e68f8a304\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 97            <meta-data
-97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lopez\.gradle\caches\transforms-4\01c3e37df2b2fb0b37739e3a91f67a32\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hajca\.gradle\caches\transforms-4\2ec1e72086c099be0896e24e68f8a304\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lopez\.gradle\caches\transforms-4\01c3e37df2b2fb0b37739e3a91f67a32\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hajca\.gradle\caches\transforms-4\2ec1e72086c099be0896e24e68f8a304\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 99                android:value="androidx.startup" />
-99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lopez\.gradle\caches\transforms-4\01c3e37df2b2fb0b37739e3a91f67a32\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hajca\.gradle\caches\transforms-4\2ec1e72086c099be0896e24e68f8a304\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 100            <meta-data
-100-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\lopez\.gradle\caches\transforms-4\7d2672e2dbf82250945e81ca067fa436\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+100-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\hajca\.gradle\caches\transforms-4\5628eca20c4e3b78dc317e50c53b7355\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
 101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-101-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\lopez\.gradle\caches\transforms-4\7d2672e2dbf82250945e81ca067fa436\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+101-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\hajca\.gradle\caches\transforms-4\5628eca20c4e3b78dc317e50c53b7355\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
 102                android:value="androidx.startup" />
-102-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\lopez\.gradle\caches\transforms-4\7d2672e2dbf82250945e81ca067fa436\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+102-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\hajca\.gradle\caches\transforms-4\5628eca20c4e3b78dc317e50c53b7355\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
 103            <meta-data
-103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 104                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
 105                android:value="androidx.startup" />
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
 106        </provider>
 107
 108        <receiver
-108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
 109            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
 110            android:directBootAware="false"
-110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
 111            android:enabled="true"
-111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
 112            android:exported="true"
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
 113            android:permission="android.permission.DUMP" >
-113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 114            <intent-filter>
-114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
 115                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 116            </intent-filter>
 117            <intent-filter>
-117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
 118                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 119            </intent-filter>
 120            <intent-filter>
-120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
 121                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 122            </intent-filter>
 123            <intent-filter>
-123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
 124                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lopez\.gradle\caches\transforms-4\0ab9f35786814a61612f7ce1b824f8cf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hajca\.gradle\caches\transforms-4\d4eea729b47b7a390159563c78030973\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
 125            </intent-filter>
 126        </receiver>
 127    </application>

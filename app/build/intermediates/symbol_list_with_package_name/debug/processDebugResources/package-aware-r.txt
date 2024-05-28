@@ -3127,6 +3127,7 @@ id BOTTOM_START
 id CTRL
 id CerrarSesion
 id FUNCTION
+id ListView
 id META
 id NO_DEBUG
 id SHIFT
@@ -3221,12 +3222,15 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnBuscar
+id btnMostrarTodo
 id buscar
 id button
 id button2
 id button3
 id button4
 id button5
+id button7
 id buttonBackToLogin
 id buttonPanel
 id cache_measures
@@ -3314,6 +3318,7 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id errorTextView
+id etBuscar
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3339,6 +3344,7 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id group
 id group_divider
 id grouping
 id groups
@@ -3580,6 +3586,7 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
+id tableRow
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading

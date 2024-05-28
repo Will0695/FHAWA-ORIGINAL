@@ -57,13 +57,17 @@ drawable usuario
 drawable v
 drawable ver
 id CerrarSesion
+id ListView
 id apellidoEditText
+id btnBuscar
+id btnMostrarTodo
 id buscar
 id button
 id button2
 id button3
 id button4
 id button5
+id button7
 id buttonBackToLogin
 id confirpasswordEditText
 id correoEditText
@@ -71,6 +75,8 @@ id crearButton
 id crearUsuario
 id encabezado_fhawa
 id errorTextView
+id etBuscar
+id group
 id imageButton
 id imageButton2
 id imageButton3
@@ -89,6 +95,7 @@ id passwordEditText
 id passwordTextInputLayout
 id progressBar
 id roleSpinner
+id tableRow
 id textView
 id textView2
 id textView3

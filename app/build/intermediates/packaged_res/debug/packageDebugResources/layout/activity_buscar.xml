@@ -5,6 +5,119 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Buscar">
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="83dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="121dp"
+        android:backgroundTint="#C35A5A"
+        android:drawableBottom="@android:drawable/ic_menu_search"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etBuscar"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="228dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="93dp"
+        android:text="Solicitudes"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#AFA9A9"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView,btnBuscar" />
+
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="48dp"
+        android:background="#C6B6B6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMostrarTodo">
+
+        <ListView
+            android:id="@+id/ListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableRow>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etBuscar"
+        android:layout_width="257dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="12dp"
+        android:hint="# de Solicitud"
+        android:textColor="#EFEFEF"
+        app:layout_constraintBottom_toTopOf="@+id/btnMostrarTodo"
+        app:layout_constraintEnd_toStartOf="@+id/btnBuscar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnMostrarTodo"
+        android:layout_width="110dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="#C35A5A"
+        android:text="Ver todas"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBuscar" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="61dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="69dp"
+        android:backgroundTint="#C35A5A"
+        android:onClick="crud_vendedor"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toTopOf="@+id/etBuscar"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

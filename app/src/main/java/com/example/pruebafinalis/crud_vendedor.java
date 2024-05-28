@@ -32,4 +32,8 @@ public class crud_vendedor extends AppCompatActivity {
         startActivity(salir);
     }
 
+    public void buscar(View vista){
+        Intent buscar = new Intent(this, Buscar.class);
+        startActivity(buscar);
+    }
 }

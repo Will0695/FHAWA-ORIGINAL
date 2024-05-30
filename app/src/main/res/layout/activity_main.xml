@@ -52,8 +52,10 @@
         android:id="@+id/loginButton"
         android:layout_width="275dp"
         android:layout_height="95dp"
+        android:backgroundTint="#C35A5A"
         android:onClick="onLoginClicked"
         android:text="LOGIN"
+        android:textColor="#AFA9A9"
         android:textSize="30dp" />
 
     <!-- ProgressBar para mostrar el progreso -->

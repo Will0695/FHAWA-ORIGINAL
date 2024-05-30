@@ -35,11 +35,15 @@
         android:id="@+id/buttonBackToLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/menu_button_text"
+        android:layout_marginTop="16dp"
         android:background="@drawable/button_pink_background"
-        app:layout_constraintTop_toBottomOf="@+id/textViewWelcomeMessage"
-        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#C35A5A"
+        android:foregroundTint="#C35A5A"
+        android:text="@string/menu_button_text"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWelcomeMessage"
+        tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

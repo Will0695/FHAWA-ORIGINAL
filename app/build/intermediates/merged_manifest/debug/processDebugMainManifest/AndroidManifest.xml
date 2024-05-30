@@ -31,10 +31,10 @@
         android:theme="@style/Theme.PruebaFinalIS"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.pruebafinalis.solicitudes_ven"
+            android:name="com.example.pruebafinalis.Delete_sol"
             android:exported="false" />
         <activity
-            android:name="com.example.pruebafinalis.modificar_ve"
+            android:name="com.example.pruebafinalis.solicitudes_ven"
             android:exported="false" />
         <activity
             android:name="com.example.pruebafinalis.crud_vendedor"
@@ -89,6 +89,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true" />
+        <activity
+            android:name="androidx.activity.ComponentActivity"
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

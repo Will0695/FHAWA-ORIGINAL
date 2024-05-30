@@ -16,10 +16,10 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".solicitudes_ven"
+            android:name=".Delete_sol"
             android:exported="false" />
         <activity
-            android:name=".modificar_ve"
+            android:name=".solicitudes_ven"
             android:exported="false" />
         <activity
             android:name=".crud_vendedor"

@@ -59,16 +59,15 @@ public class Usuario extends AppCompatActivity {
                 }
             });
             // Establece el OnClickListener para el botón buscar
-            ImageButton buscarButton = findViewById(R.id.buscar);
-                        buscarButton.setOnClickListener(new View.OnClickListener() {
-                                                            @Override
-                                                            public void onClick(View v) {
-                                                                // Crea el Intent para iniciar la actividad Buscar
-                                                                Intent intent = new Intent(Usuario.this, Buscar.class);
-                                                                startActivity(intent);
-
-                                                            }
-                        });
+        ImageButton buscarButton = findViewById(R.id.buscar);
+            buscarButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                // Crea el Intent para iniciar la actividad Buscar
+                Intent intent = new Intent(Usuario.this, Buscar.class);
+                startActivity(intent);
+                }
+            });
         }
 
         // Encuentra el botón por su ID

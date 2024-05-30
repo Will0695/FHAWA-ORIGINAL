@@ -1,0 +1,6 @@
+com.example.pruebafinalis.test.app-core-1.5.0-0 C:\Users\lopez\.gradle\caches\transforms-4\8139e05cd2f17670083bd2edd8b5cf78\transformed\core-1.5.0\res
+com.example.pruebafinalis.test.app-annotation-experimental-1.3.0-1 C:\Users\lopez\.gradle\caches\transforms-4\f7b17361ec483aa7002ecdecbd66a24a\transformed\annotation-experimental-1.3.0\res
+com.example.pruebafinalis.test.app-androidTest-2 C:\Users\lopez\Desktop\fhawa\app\build\generated\res\resValues\androidTest\debug
+com.example.pruebafinalis.test.app-mergeDebugAndroidTestResources-3 C:\Users\lopez\Desktop\fhawa\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.pruebafinalis.test.app-mergeDebugAndroidTestResources-4 C:\Users\lopez\Desktop\fhawa\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.pruebafinalis.test.app-debugAndroidTest-5 C:\Users\lopez\Desktop\fhawa\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

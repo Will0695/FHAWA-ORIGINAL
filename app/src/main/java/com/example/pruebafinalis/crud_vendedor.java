@@ -23,13 +23,16 @@ public class crud_vendedor extends AppCompatActivity {
         Intent solicitado = new Intent(this, solicitudes_ven.class);
         startActivity(solicitado);
     }
-    public void modificar_ve(View vista){
-        Intent modific = new Intent(this, modificar_ve.class);
-        startActivity(modific);
-    }
     public void Usuario(View vista){
         Intent salir = new Intent(this, Usuario.class);
         startActivity(salir);
     }
-
+    public void buscar(View vista){
+        Intent buscar = new Intent(this, Buscar.class);
+        startActivity(buscar);
+    }
+    public void delete_sol(View vista){
+        Intent delete_sol = new Intent(this,Delete_sol.class);
+        startActivity(delete_sol);
+    }
 }

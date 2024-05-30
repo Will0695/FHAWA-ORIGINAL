@@ -28,6 +28,7 @@
     <string name="app_name">FHAWA</string>
     <string name="cerrar_sesion">Cerrar Sesión</string>
     <string name="menu_button_text">Ir al menú</string>
+    <string name="title_activity_eliminar_sol">eliminar_sol</string>
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>

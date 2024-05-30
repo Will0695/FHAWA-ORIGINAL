@@ -10,10 +10,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="    INGRESO DE USUARIO"
-        android:textSize="30sp"
         android:paddingTop="8dp"
-        android:paddingBottom="4dp" />
+        android:paddingBottom="4dp"
+        android:text="    INGRESO DE USUARIO"
+        android:textColor="#AFA9A9"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -25,7 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/persona"
-            android:drawablePadding="8dp" />
+            android:drawablePadding="8dp"
+            android:textStyle="bold" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -39,7 +43,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/persona"
-            android:drawablePadding="8dp" />
+            android:drawablePadding="8dp"
+            android:textStyle="bold" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -53,18 +58,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/user"
-            android:drawablePadding="8dp" />
+            android:drawablePadding="8dp"
+            android:textStyle="bold" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Seleccionar rol"
-        android:textSize="20sp"
         android:paddingTop="10dp"
         android:paddingBottom="8dp"
-        android:textColor="?android:attr/textColorPrimary" />
+        android:text="Seleccionar rol"
+        android:textColor="#AFA9A9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
 
     <Spinner
         android:id="@+id/roleSpinner"
@@ -81,7 +89,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/emaill"
-            android:drawablePadding="8dp" />
+            android:drawablePadding="8dp"
+            android:textStyle="bold" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -94,9 +103,10 @@
             android:id="@+id/passwordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
             android:drawableStart="@drawable/ionoeyes"
-            android:drawablePadding="8dp" />
+            android:drawablePadding="8dp"
+            android:inputType="textPassword"
+            android:textStyle="bold" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -109,9 +119,10 @@
             android:id="@+id/confirpasswordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
             android:drawableStart="@drawable/ionoeyes"
-            android:drawablePadding="8dp" />
+            android:drawablePadding="8dp"
+            android:inputType="textPassword"
+            android:textStyle="bold" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -129,6 +140,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="16dp"
         android:background="@color/colorPrimary"
+        android:backgroundTint="#C35A5A"
         android:drawablePadding="10dp"
         android:minHeight="48dp"
         android:padding="16dp"

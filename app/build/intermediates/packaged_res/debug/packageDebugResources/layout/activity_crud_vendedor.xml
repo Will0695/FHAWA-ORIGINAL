@@ -8,18 +8,61 @@
     tools:context=".crud_vendedor">
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="94dp"
-        android:layout_height="106dp"
+        android:id="@+id/imageButton3"
+        android:layout_width="105dp"
+        android:layout_height="112dp"
+        android:contentDescription="ventas totales"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.957"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.876"
+        app:layout_constraintVertical_bias="0.823"
+        app:srcCompat="@drawable/v" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="94dp"
+        android:layout_height="106dp"
         android:contentDescription="buscar venta"
+        android:onClick="buscar"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825"
         app:srcCompat="@drawable/buscar" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="92dp"
+        android:layout_height="110dp"
+        android:contentDescription="eliminar venta"
+        android:onClick="delete_sol"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824"
+        app:srcCompat="@android:drawable/ic_delete" />
 
     <TextView
         android:id="@+id/textView3"
@@ -30,53 +73,11 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintHorizontal_bias="0.898"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932"
+        app:layout_constraintVertical_bias="0.864"
         tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="92dp"
-        android:layout_height="110dp"
-        android:onClick="modificar_ve"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.084"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.876"
-        android:contentDescription="modificar venta"
-        app:srcCompat="@drawable/agregar" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MODIFICAR"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.956" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="105dp"
-        android:layout_height="112dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.875"
-        android:contentDescription="ventas totales"
-        app:srcCompat="@drawable/v" />
 
     <TextView
         android:id="@+id/textView2"
@@ -86,9 +87,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.956" />
+        app:layout_constraintVertical_bias="0.905" />
 
     <TextView
         android:id="@+id/textView6"
@@ -96,7 +98,10 @@
         android:layout_height="wrap_content"
         android:text="BIENVENIDOS"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#FD0000"
+        android:textColor="#AFA9A9"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -108,11 +113,12 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#C35A5A"
         android:onClick="solicitudes_ven"
         android:text="NUEVA SOLICITUD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.59" />
@@ -121,6 +127,7 @@
         android:id="@+id/regresar_v"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#C35A5A"
         android:onClick="Usuario"
         android:text="Regresar al inicio"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:2:1-79:12
+ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:2:1-72:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\hajca\.gradle\caches\transforms-4\b00f29a93279bebad56f7e30a04340c1\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hajca\.gradle\caches\transforms-4\143b12e16657a0024b5f7a738836e1c2\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\hajca\.gradle\caches\transforms-4\a9f3fca02e03708b67a637c147402646\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -90,8 +90,8 @@ ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:7:5-77:19
-INJECTED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:7:5-77:19
+ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:7:5-70:19
+INJECTED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:7:5-70:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\hajca\.gradle\caches\transforms-4\b00f29a93279bebad56f7e30a04340c1\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\hajca\.gradle\caches\transforms-4\b00f29a93279bebad56f7e30a04340c1\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hajca\.gradle\caches\transforms-4\143b12e16657a0024b5f7a738836e1c2\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -209,39 +209,39 @@ ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:50:9-52
 	android:name
 		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:51:13-36
 activity#com.example.pruebafinalis.SplashActivity
-ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:53:9-61:20
+ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:53:9-55:39
 	android:exported
 		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:55:13-36
 	android:name
 		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:54:13-43
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:56:13-60:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:57:17-69
-	android:name
-		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:57:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:59:17-77
-	android:name
-		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:59:27-74
 activity#com.example.pruebafinalis.info
-ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:62:9-64:39
+ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:56:9-58:39
+	android:exported
+		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:57:13-33
+activity#com.example.pruebafinalis.Usuario
+ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:59:9-61:39
+	android:exported
+		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:60:13-36
+activity#com.example.pruebafinalis.MainActivity
+ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:62:9-69:20
 	android:exported
 		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:63:13-33
-activity#com.example.pruebafinalis.Usuario
-ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:65:9-67:39
-	android:exported
-		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:67:13-36
+		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:63:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:65:13-68:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:66:17-69
 	android:name
-		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:66:13-36
-activity#com.example.pruebafinalis.MainActivity
-ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:68:9-76:20
-	android:exported
-		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:70:13-36
+		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:66:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:67:17-77
 	android:name
-		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:69:13-41
+		ADDED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml:67:27-74
 uses-sdk
 INJECTED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\hajca\Desktop\fhawa\app\src\main\AndroidManifest.xml
